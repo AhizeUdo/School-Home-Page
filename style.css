@@ -17,6 +17,8 @@ body{
     background-position: right;
     margin-right: 5px;
     background-size: contain;
+    background-position: center;
+    position: relative;
     cursor: pointer;
 }
 nav{
