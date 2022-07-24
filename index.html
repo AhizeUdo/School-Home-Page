@@ -17,7 +17,6 @@
     <div class="container">
         <div class="navcontainer">
             <nav>
-                <h3>Sync.Edu</h3>
                 <div class="navbtn" id="navbutton">
                     
 
@@ -27,14 +26,36 @@
                         <li >Home</li>
                         <li >Contacts</li>
                         <li >About Us</li>
-                        <li ><p id="menuexit">Close</p></li>
+                        <li ><p>Close</p></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <section>
-            <div class="landpagecontainer">
-
+            <div class="landpagecontainer" id="menuexit">
+                <div class="infonlandpage">
+                    <p>
+                        Welcome to <strong> Academy for Thinkers</strong>-a distinctive and supportive academic community that aims to enhance students thinking through reading and writing. 
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="columsections">
+                <ul>
+                    <li>
+                        <div class="collectiveimg1"></div>
+                    </li>
+                    <li>
+                        <div class="collectiveimg2"></div>
+                    </li>
+                    <li>
+                        <div class="collectiveimg3"></div>
+                    </li>
+                    <li>
+                        <div class="collectiveimg4"></div>
+                    </li>
+                </ul>
             </div>
         </section>
     </div>
@@ -50,7 +71,7 @@
         });
 
         $(document).ready(function(){
-            $("#menuexit").click(function(){
+            $("#menuexit").hover(function(){
                 $("#panel").hide("slow");
             });
         }); 

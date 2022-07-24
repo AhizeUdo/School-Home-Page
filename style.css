@@ -10,7 +10,7 @@ body{
 }
 .navbtn{
     background-image: url(/main-menu.png);
-    height: 50px;
+    height: 10px;
     background-position: absolute;
     background-repeat: no-repeat;
     align-items: right;
@@ -25,13 +25,6 @@ nav{
     /* align-items: right; */
     position: relative;
 }
-nav h3{
-    font-family: 'QuickSand', sans-serif;
-    font-size: 50px;
-    text-align: left;
-    position: absolute;
-    color: white;
-}
 
 #panel{
     display: none;
@@ -40,7 +33,7 @@ nav h3{
     top: 15px;
     height: 600px;
     width: 300px;
-    /* margin-left: 1504px; */
+    margin-left: 1504px;
     position: right;
     align-content: right;
     z-index: 1;
@@ -72,6 +65,57 @@ nav h3{
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 800px;
+    height: 530px;
     width: 100vw;
+}
+.infonlandpage {
+    height: 100px;
+    width: 350px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-left: 0px;
+    font-family: 'Rubik', sans-serif;
+    opacity: 0.8;
+    color: black;
+    top: 290px;
+    position: fixed;
+}
+.columsections{
+    height: 400px;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+}
+.columsections ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.columsections ul li{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.collectiveimg1{
+    background-image: url(/pexels-wildan-zainul-faki-3660654.jpg);
+    height: 400px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.collectiveimg2{
+    background-image: url(/pexels-wildan-zainul-faki-3790492.jpg);
+    height: 400px;
+    width: 300px;
+    margin: 0;
+    margin-left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
