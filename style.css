@@ -11,7 +11,7 @@ body{
 .navbtn{
     background-image: url(/main-menu.png);
     height: 25px;
-    margin-left: 25px;
+    margin-left: 199px;
     background-position: absolute;
     background-repeat: no-repeat;
     align-items: right;
@@ -34,7 +34,7 @@ nav{
 }
 .navcontainer{
     top: 15px;
-    height: 600px;
+    height: 400px;
     width: 300px;
     margin-left: 1504px;
     position: right;
@@ -73,7 +73,7 @@ section{
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 535px;
+    height: 450px;
     width: 100vw;
 }
 .infonlandpage {
@@ -85,7 +85,7 @@ section{
     font-family: 'Rubik', sans-serif;
     opacity: 0.8;
     color: black;
-    top: 290px;
+    top: 250px;
     position: fixed;
 }
 .columsections{
@@ -106,7 +106,7 @@ section{
     margin: 0;
     padding: 0;
     display: inline-block;
-    /* position: absolute; */
+    width: 450px;
 }
 
 .textindiv{
@@ -122,12 +122,12 @@ section{
 .collectiveimg{
     padding: 0;
     margin: 0;
-    /* position: relative; */
+    position: relative;
     width: 250px;
 }
 
 .collectiveimg .images{
-    height: 400px;
+    height: 500px;
     width: 500px;
     margin: 0;
     padding: 0;
