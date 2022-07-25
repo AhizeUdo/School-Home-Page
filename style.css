@@ -92,23 +92,23 @@ section{
     z-index: 100;
 }
 .landpagecontainer{
-    background-image: url(/land.jpeg);
+    background-image: url(/landpagerep.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 450px;
+    height: 555px;
     width: 100vw;
 }
 .infonlandpage {
     height: 100px;
     width: 350px;
-    background-color: aliceblue;
+    background-color: rgb(26, 27, 27);
     padding: 10px;
     margin-left: 0px;
     font-family: 'Rubik', sans-serif;
     opacity: 0.8;
-    color: black;
+    color: white;
     top: 250px;
     position: fixed;
 }
@@ -134,25 +134,32 @@ section{
 }
 
 .textindiv{
-    width: 200px;
-    background-color: aliceblue;
-    padding: 10px;
+    width: 150px;
+    height: 120px;
+    background-color:  rgb(26, 27, 27);
+    padding: 5px;
     margin-left: 0px;
     font-family: 'Rubik', sans-serif;
-    color: black;
+    opacity: 0.8;
+    font-size: 12px;
+    color: white;
     position: relative
+}
+
+.textindiv h4{
+    font-family: 'QuickSand', sans-serif;
 }
 
 .collectiveimg{
     padding: 0;
     margin: 0;
     position: relative;
-    width: 250px;
+    width: 200px;
 }
 
 .collectiveimg .images{
     height: 500px;
-    width: 500px;
+    width: 490px;
     margin: 0;
     padding: 0;
     position: absolute;
