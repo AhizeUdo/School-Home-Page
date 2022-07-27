@@ -11,14 +11,13 @@ body{
 nav{
     margin: 0;
     padding: 0;
-    /* align-items: right; */
     /* position: relative; */
 }
 
 .navlist{
-    position: relative;
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 .navlist ul{
@@ -31,7 +30,20 @@ nav{
 
 }
 
- .navmenu ul {
+.navlist ul li .infonlandpagenav{
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    background-color:  rgb(241, 44, 38);
+    left: 1510px;
+    font-family: 'Rubik', sans-serif;
+    opacity: 0.8;
+    color: black;
+    top: 0px;
+    position: left;
+}
+
+.navmenu ul {
     list-style: none;
     /* display: block; */
     /* margin: 0;
@@ -40,26 +52,23 @@ nav{
 .navmenu ul li{
     padding: 5px;
 }
-.navbuttons{
+.navlist ul li .navbuttons{
     text-decoration: none;
     list-style: none;
+    display: absolute;
 }
-.navbuttons li{
-    display: relative;
+.navlist ul li .navbuttons li{
+    height: 50px;
 }
 #panel{
     display: none;
 }
-/* .navcontainer{
-    /* top: 15px;
+.navcontainer{
     height: 400px;
     width: 300px;
-    margin-left: 1504px; */
-    /* position: right;
-    align-content: right; */
-    /* z-index: 1; */
-    /* position: fixed;
-} */ 
+    z-index: 1; 
+    position: absolute;
+}
 .navmenu{
     height: 100%;
     cursor: pointer;
@@ -134,18 +143,7 @@ section{
     top: 260px;
     position: relative;
 }
-.infonlandpagenav{
-    height: 100px;
-    width: 200px;
-    padding: 10px;
-    background-color:  rgb(241, 44, 38);
-    right: 1510px;
-    font-family: 'Rubik', sans-serif;
-    opacity: 0.8;
-    color: black;
-    top: 0px;
-    position: relative;
-}
+
 .columsections{
     height: 400px;
     width: 100vw;
