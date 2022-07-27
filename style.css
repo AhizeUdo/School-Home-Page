@@ -59,6 +59,7 @@ nav{
 }
 .navlist ul li .navbuttons li{
     height: 50px;
+    display: block;
 }
 #panel{
     display: none;
@@ -96,7 +97,7 @@ section{
 }
 .navbtn{
     background-image: url(/main-menu.png);
-    height: 25px;
+    height: 900px;
     margin-left: 199px;
     background-position: absolute;
     background-repeat: no-repeat;
@@ -105,7 +106,7 @@ section{
     margin-right: 5px;
     background-size: contain;
     background-position: center;
-    position: relative;
+    position: right;
     cursor: pointer;
 }
 .navbtntwo{
@@ -119,7 +120,7 @@ section{
     margin-right: 5px;
     background-size: contain;
     background-position: center;
-    position: relative;
+    position: absolute;
     cursor: pointer;
 }
 .landpagecontainer{
